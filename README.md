@@ -1,4 +1,4 @@
-# RSS Feed Scraper Server
+# 🚀 RSS Feed Scraper Server
 
 RSSAGG is a Go-based HTTP server that scrapes RSS feeds from websites, stores feed data in a PostgreSQL database, and provides an API to retrieve and manage the feeds and their posts.
 
@@ -32,8 +32,8 @@ PORT=8080
 
 ### Build and Run
 ```bash
-go build -o rag-server 
-./rag-server
+go build -o rss-server 
+./rss-server
 
 ```
 Your server should now be running on http://localhost:8080.
